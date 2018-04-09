@@ -152,7 +152,7 @@ else
 fi
 
 echo "=========="
-file="/var/www/runoob/test.sh"
+file="/Users/lbq/Documents/Code/LL_Workspace/DMShell/param.sh"
 if [ -r $file ]
 then
    echo "文件可读"
