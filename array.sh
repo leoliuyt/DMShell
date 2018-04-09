@@ -24,5 +24,5 @@ done
 echo ${array_name[@]}
 
 #获取数组长度
-length=${#array_name[1]}
+length=${#array_name[@]}
 echo "length=${length}"
