@@ -1,11 +1,9 @@
 #!/bin/sh
-say 你好
 day=$(date +"%u")
-if [ $day -eq 2 ]
+if [ $day -eq 7 ]
 then
 
-sleep 10    
-say 你好，用户
+say 你好，欢迎登录
 email_date=$(date "+%Y-%m-%d_%H:%M:%S")  
 email_body="周天有人在${email_date} 登陆了你的电脑"
 email_subject="入侵警告!!!"
